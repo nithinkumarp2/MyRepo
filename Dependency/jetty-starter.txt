@@ -1,0 +1,16 @@
+<dependency>
+    <groupId>org.pringframework-boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+    <exclusions>
+<!-- Exclusde the tomcat dependency-->
+    <exclusion>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    </exclusion>
+    </exclusions>
+</dependency>
+<!-- use jetty instead-->
+<dependency>
+<groupId>org.pringframework-boot</groupId>
+    <artifactId>spring-boot-starter-jetty</artifactId>
+</dependency>
