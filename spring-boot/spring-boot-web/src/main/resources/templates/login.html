@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+	crossorigin="anonymous">
+</head>
+<body>
+<br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-6 container justify-content-center card">
+			<div class=" ">
+				<h4>Login Page</h1>
+			</div>
+			<div class="card-body">
+			<form th:action="@{/login}" th:object="${teacher}" method="post">
+			<div class="form-group">
+			<label> username</label>
+			<input class="form-control" type="text" th:field="*{userName}" name="username" placeholder="Enter E-mail"> 
+			
+			</div>
+			
+			<div class="form-group">
+			<label> password</label>
+			<input class="form-control" type="text" th:field="*{userPass}" name="userPass" placeholder="Enter  password"> 
+			</div>
+			<div class="box-footer">
+							<button type="submit" class="btn btn-primary">submit</button>
+						</div>
+						<br>
+						
+						New User :<a href=" save.html">click</a> 
+			</form>
+			
+			</div>
+			
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>

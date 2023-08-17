@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;create_student.html&apos; to &apos;templates&apos;&#x0D;&#x0A;- Original project: &apos;Spring-Boot-curd-web&apos;&#x0D;&#x0A;- Destination element: &apos;templates&apos;&#x0D;&#x0A;- Original element: &apos;create_student.html&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="src/main/resources/static/create_student.html" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1680702252278" target="src/main/resources/templates" units="0" version="1.0"/>
-</session>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Teacher Details</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+	crossorigin="anonymous">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Teacher Management System</a>
+
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{/teacher}">Teacher Management</a>
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+	<div class="container">
+		<div class="row">
+			<div>
+				<h1>List Teachers</h1>
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="col-lg-3"> 
+			<a th:href="@{/teacher/new}" class="btn btn-primary btn-sm mb-3">Add Teacher</a>
+			</div>
+		</div>
+		<table class="table table-striped">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">FirstName</th>
+      <th scope="col">LastName</th>
+      <th scope="col">Phone-No</th>
+      <th scope="col">DOB</th>
+      <th scope="col">Address</th>
+      <th scope="col">subject</th>
+      <th scope="col">username</th>
+      <th scope="col">password</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="teacher:${teacher}">
+      <th th:text="${teacher.firstName}"></th>
+      <td th:text="${teacher.lastName}"></td>
+      <td th:text="${teacher.phoneno}"></td>
+      <td th:text="${teacher.Dob}"></td>
+      <th th:text="${teacher.address}"></th>
+      <th th:text="${teacher.subject}"></th>
+      <th th:text="${teacher.userName}"></th>
+      <th th:text="${teacher.userPass}"></th>
+      <th><a  th:href = "@{/teacher/update/{id}(id=${teacher.id})}" class="btn btn-primary">update</a>
+      <a  th:href = "@{/teacher/{id}(id=${teacher.id})}" class="btn btn-danger">delete</a></th>
+    </tr>
+    
+  </tbody>
+  
+ 
+</table>
+
+	</div>
+</body>
+</html>
