@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678678717214_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678678717253_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679139044306_3" label="spring-boot-first" name="spring-boot-first">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-first" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679204144613_4" label="spring-boot-curd-np" name="spring-boot-curd-np"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679217402471_5" label="spring-boot-Demo" name="spring-boot-Demo">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-Demo" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679217864550_6" label="spring-boot-Demo1" name="spring-boot-Demo1">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-Demo1" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679301938652_7" label="spring-boot-curd" name="spring-boot-curd">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/spring-boot-curd" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1680518951357_8" label="school" name="school">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/school" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1678678718744_2" label="Window Working Set" name="Aggregate for window 1678678718744"/>
+</workingSetManager>
