@@ -1,0 +1,5 @@
+127.0.0.1 - - [20/Mar/2023:21:21:26 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:21:21:27 +0530] "GET /servlet_curd/ HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:21:21:29 +0530] "GET /servlet_curd/saveDetail.jsp HTTP/1.1" 200 505
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:21:22:08 +0530] "GET /servlet_curd/saveDetails?id=1&first=nithinkumar&last=kumar&age=25&email=nithinkumar%40gmail.ccom&pass=nithin%40123 HTTP/1.1" 500 9047
+0:0:0:0:0:0:0:1 - - [20/Mar/2023:21:25:47 +0530] "GET /servlet_curd/saveDetail.jsp HTTP/1.1" 200 505

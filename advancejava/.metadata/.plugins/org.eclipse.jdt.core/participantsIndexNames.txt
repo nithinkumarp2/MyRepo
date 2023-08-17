@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\Lenovo\Desktop\advancejava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1106834940.index
+\servlet_curd\src\main\java
+C:\Users\Lenovo\Desktop\advancejava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1062116521.index
+\servlet_last\src\main\resources
+C:\Users\Lenovo\Desktop\advancejava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3642640499.index
+\servlet_first1\src\main\java
+C:\Users\Lenovo\Desktop\advancejava\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2133272049.index
+\servlet_first\src\main\resources
