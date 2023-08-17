@@ -65,3 +65,14 @@ After pushing your changes to a branch, you can create a pull request on GitHub'
 Remember to replace <repository_url>, <branch_name>, <file_name>, and <tag_name> with appropriate values. Also, keep in mind that these are just basic commands. Git offers a rich set of features, so you may need to explore further depending on your needs.
 
 Always make sure to consult the official documentation or relevant resources for more detailed information and best practices.
+
+
+----------------------------------------------------------------------
+git commands
+*-------------*
+-> git clone (first we need to clone the repository)
+-> git status (check the status)
+-> git add file name or git add .(adds the hole files)
+-> git status
+-> git commit -m "give a message"
+-> git push 
