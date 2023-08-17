@@ -1,0 +1,37 @@
+class two_dimensional_swaping_array 
+{
+	public static void main(String[] args) 
+	{
+		int[][]a={{8,12,1},{38,15,4}};
+		int n=a.length-1; 
+		//int[][] g={{n},{3}};
+		for (int i=0;i<=n ;i++ )
+		{
+			int[] b=a[i];
+			int n1=b.length-1;
+			for (int j=0;j<=n1 ;j++ )
+			{
+				for (int k=0;k<=n1-1 ;k++ )
+				{
+					if (b[k]>b[k+1])
+					{
+						int ele=b[k];
+						b[k]=b[k+1];
+						b[k+1]=ele;
+                //    int [][] g=[k];      
+					}
+					
+				//	System.out.println(b[k]);
+				}
+			}
+			for (int l=0;l<=n1 ;l++ )
+		{
+				//System.out.println(a[i]);
+           System.out.println(b[l]);
+		}
+		//System.out.println(a[0][0]);
+		}
+		
+		
+	}
+}

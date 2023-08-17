@@ -1,0 +1,22 @@
+class count_number_of_2s_between_0_to_n 
+{
+	public static void main(String[] args) 
+	{
+		int n=35;
+		int count=0;
+		for (int i=0;i<=n ;i++ )
+		{
+			while (i<n)
+			{
+				int digit=i%10;
+				if (digit==2)
+				{
+					count++;
+				}
+			   	i/=10;
+			}
+			n++;
+		}
+		System.out.println(count);
+	}
+}

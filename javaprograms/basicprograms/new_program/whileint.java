@@ -1,0 +1,18 @@
+class whileint 
+{
+	public static void main(String[] args) 
+	{
+		//int n=47;
+		char c='A';
+		//char ch='a';
+		while(c<='Z')
+		{
+			if(c%2==0)
+			{
+		System.out.println(c+0+""+c);
+		//c++;
+			}
+		c++; 
+		}
+	}
+}

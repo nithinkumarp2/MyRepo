@@ -1,0 +1,68 @@
+class two_dimensional_array_reverse 
+{
+	public static void main(String[] args) 
+	{
+		String[] a={"abczd" ,"yza" ,"zero"};
+		int n=a.length-1;
+		for (int i=0;i<=n ;i++ )
+		{
+			String str=a[i];
+			char[] ch=str.toCharArray();
+			int n1=ch.length-1;
+			for (int j=0; j<=n1;j++ )
+			{
+				for (int k=0;k<=n1-1 ;k++ )
+				{
+					if (ch[k]>ch[k+1])
+					{
+						char ele=ch[k];
+                         ch[k]=ch[k+1];
+						ch[k+1]=ele;
+					}
+	             }
+	
+			String str2="";
+			for (int l=0; l<=n1;l++ )
+			{
+				str2=str2+ch[l];
+			}
+			a[i]=str2;
+			
+		}
+	
+		}
+			for (int j=0;j<=n ;j++ )
+		{
+            System.out.println(a[j]);
+		}
+//		String str="abczd yza zero";
+//		String[] str1=str.split(" ");
+//		int n=str1.length-1;
+//		for (int i=0;i<=n ;i++ )
+//		{
+//			int n1=s.length()-1;
+//			System.out.println(s);
+//			for (int j=0; j<=n1;j++ )
+//			{
+//				char ch=s.charAt(j);
+//				//System.out.println(ch);
+//				for (int k=0;k<=n1-1 ;k++ )
+//				{
+//					if (ch[k]>ch[k+1])
+//					{
+//						char ele=ch[k];
+///						ch[k]=ch[k+1];
+	//					ch[k+1]=ele;
+	///				}
+		//		}
+	//		}
+//			String str2="";
+//			for (int j=0;j<=n1 ;j++ )
+//			{
+//				str2=str2+ch[j];
+//			}
+  //               System.out.println(str2);
+	//	}
+	//	System.out.println("Hello World!");
+	}
+}

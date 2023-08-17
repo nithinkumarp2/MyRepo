@@ -1,0 +1,11 @@
+class program13 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=20;
+		int c=30;
+		tring res=(a>b)&&(b>c)?a+"is largest":(b>c)?b+"is largest":c+"is largest";
+		System.out.println(res);
+	}
+}

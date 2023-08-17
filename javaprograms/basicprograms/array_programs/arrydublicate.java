@@ -1,0 +1,31 @@
+class arrydublicate 
+{
+	public static void main(String[] args) 
+	{
+		int a[]={1,1,2,2,5,5};
+		int n=a.length-1;
+		int b[]=new int[n+1];
+	//	for (int i=0;i<=n ;i++ )
+		{
+			int i=0;
+			int m=a[i];
+		//	boolean res=false;
+			for (int j=0;j<=n-1 ;j++ )
+			{
+			    if (a[j]!=a[j+1])
+			    {
+                    b[i++]=a[j];
+			    }
+			}
+			b[i++]=a[n];
+		
+for (int k=0;k<=n ;k++ )
+		{
+	if (b[k]!=0)
+	{
+             System.out.println(b[k]);
+	}
+		}
+		}
+	}
+}

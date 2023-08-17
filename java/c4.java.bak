@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class Test 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("enter the number");
+		//int a=sc.nextInt();            
+		//int b=sc.nextInt();
+		int c=sc.nextInt();
+		int x=(a>b&&a>c)?a:b>c?b:c;
+		System.out.println("maximum value:");
+
+
+
+	}
+}

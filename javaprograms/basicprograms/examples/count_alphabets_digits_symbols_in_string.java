@@ -1,0 +1,30 @@
+class count_alphabets_digits_symbols_in_string 
+{
+	public static void main(String[] args) 
+	{
+		String str="nithin1234@...///";
+		int n=str.length()-1;
+		int alphabet=0;
+		int digit=0;
+		int symbol=0;
+		for (int i=0;i<=n ;i++ )
+		{
+			char ch=str.charAt(i);
+			if (ch>=65&&ch<=90||ch>=97&&ch<=122)
+			{
+				alphabet++;
+			}
+			else if (ch>=48&&ch<=57)
+			{
+				digit++;
+			}
+			else
+			{
+				symbol++;
+			}
+		}
+		System.out.println("alphabet ="+alphabet);
+		System.out.println("digit ="+digit);
+		System.out.println("symbol ="+symbol);
+	}
+}

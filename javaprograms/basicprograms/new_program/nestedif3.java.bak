@@ -1,0 +1,53 @@
+import java.util.Scanner;
+class nestedif3
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter m value");
+		int m=sc.nextInt();
+		if (m>80)
+		{
+          if(m<120)
+			{
+              if(m>90)
+				{
+		          if(m<95)
+					{
+					  System.out.println("hello");
+					}
+				}
+			}
+			else 
+			{
+				if(m>110)
+				{
+					if(m>115)
+					{
+						System.out.println("hiiii");
+					}
+					
+				}
+
+			}
+		}
+			else
+			{ 
+			if (m<80)
+			{
+				if(m%2==0)
+				{
+					System.out.println("even");
+				}
+				else
+				{
+					System.out.println("odd");
+				}
+			}
+			else
+					{
+						System.out.println(m);
+					}
+		}
+		}
+	}

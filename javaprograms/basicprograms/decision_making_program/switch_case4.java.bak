@@ -1,0 +1,10 @@
+//write a program to print weekday and weekend if you enter the day numberas 1 to 5 and the
+//if you enter 6 and 7 as weekend.
+import java.util.Scanner;
+class  
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

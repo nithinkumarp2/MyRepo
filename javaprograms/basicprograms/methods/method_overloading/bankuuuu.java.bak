@@ -1,0 +1,17 @@
+class bankuuuu 
+{
+	//public static void display()
+	{
+	//	System.out.println("hero");
+
+	}
+	public static String display(String name)
+	{
+		return name;
+	}
+	public static void main(String[] args) 
+	{
+		display();
+		System.out.println(display("nithin"));
+	}
+}

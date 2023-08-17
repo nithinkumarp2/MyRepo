@@ -1,0 +1,29 @@
+class swap_1st_last_character_in_string 
+{
+	public static void main(String[] args) 
+	{
+		 String str1="apple"; String str2="";
+
+		 int n=str1.length()-1;
+		 char c=str1.charAt(0);
+		 char c1=str1.charAt(n);
+		 for (int i=0;i<=n ;i++ )
+		 {
+			 char ch=str1.charAt(i);
+			 if (c==ch)
+			 {
+                   str2=c1+str2;
+			 }
+			 else if (c1==ch)
+			 {
+				 str2=str2+c;
+			 }
+			 else
+			 {
+				 str2=str2+ch;
+			 }
+			 
+		 }
+		 System.out.println(str2);
+	}
+}

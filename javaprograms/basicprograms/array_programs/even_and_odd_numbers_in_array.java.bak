@@ -1,0 +1,25 @@
+class even_and_odd_numbers_in_array 
+{
+	public static void main(String[] args) 
+	{
+		int[] a={1,2,5,4,8,9,7,13};int even=0,odd=0;
+		for (int i=0; i<a.length;i++ )
+		{
+			int n=a[i];
+		//	for (int j=0;j<=n ;j++ )
+			{
+			
+			if (n%2==0)
+			{
+				even++;
+			}
+			else
+			{
+				odd++;
+			}
+			}
+			System.out.println("even"+even+"odd"+odd);
+		}
+		
+	}
+}

@@ -1,0 +1,14 @@
+class owelswithascii 
+{
+	public static void main(String[] args) 
+	{
+		for (char c='A';c<='Z' ;c++ )
+		{
+			if (c=='A'||c=='E'||c=='I'||c=='O'||c=='U')
+			{
+				System.out.println(c+0+""+c);
+			}
+		}
+		System.out.println("Hello World!");
+	}
+}

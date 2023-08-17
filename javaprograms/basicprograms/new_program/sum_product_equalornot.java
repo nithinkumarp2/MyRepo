@@ -1,0 +1,23 @@
+class sum_product_equalornot 
+{
+	public static void main(String[] args) 
+	{
+		int n=12345,sum=0,product=1;
+		while (n>0)
+		{
+			int digit=n%10;
+			sum+=digit;
+			product*=digit;
+			if (sum==product)
+			{
+				System.out.println("equal"+sum+" "+product);
+			}
+				else
+			{
+					System.out.println("not"+sum+" "+product);
+			}
+			   n/=10;
+		}
+		System.out.println("Hello World!");
+	}
+}

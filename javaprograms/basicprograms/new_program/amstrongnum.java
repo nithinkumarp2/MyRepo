@@ -1,0 +1,32 @@
+class  amstrongnum
+{
+	public static void main(String[] args) 
+	{
+		int n=1634, sum=0; int m=n,c=0,m1=n; 
+		 while (n>0)
+		 {
+			 c++;
+			 n/=10;
+		 }
+		 while (m>0)
+		 {
+			 int digit=m%10;
+			 int power=1;
+			 for (int i=1;i<=c;i++ )
+			 {
+				 power=digit*power;
+			 }
+			 sum+=power;
+			 m/=10;
+		 }
+			 if (sum==m1)
+			 {
+				 System.out.println("the given number is am strong");
+			 }
+			 else
+			 {
+				 System.out.println("the given number is not a am strong");
+			 }
+		 
+	}
+}

@@ -1,0 +1,18 @@
+class  program18
+{
+	public static void main(String[] args) 
+	{
+		int a=55;
+		int b=78;
+	
+		System.out.println(a++ + ++a + b++ + ++b);
+		System.out.println(a-- + --b + b-- + --a);
+		System.out.println(a++ + b++);
+		System.out.println(++a + --b);
+		System.out.println(b-- + a++);
+		System.out.println(b++ +--a);
+		System.out.println(a);
+		System.out.println(b);
+
+	}
+}

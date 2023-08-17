@@ -1,0 +1,12 @@
+class  uppercase2
+{
+	public static void main(String[] args) 
+	{ int res1=64;
+	
+		for(char ch='A';ch<='Z';ch++)
+		{
+         res1++;
+		System.out.println(ch+"="+res1);
+		}
+	}
+}

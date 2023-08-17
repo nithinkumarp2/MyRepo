@@ -1,0 +1,17 @@
+class digit4divisble 
+{
+	public static void main(String[] args) 
+	{
+		int n=1234568;
+		while (n>0)
+		{
+			int digit=n%10;
+			if (digit%4==0)
+			{
+				System.out.println(digit);
+			}
+			n/=10;
+		}
+		System.out.println("Hello World!");
+	}
+}

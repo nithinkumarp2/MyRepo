@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class program22 
+{
+	public static void main(String[] args) 
+	{ 
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter n value");
+		int n=sc.nextInt();
+		int smallest=5;
+
+		while(n!=0)
+		{
+			int digit=n%10;
+			if(smallest>digit)
+			{
+				smallest=digit;
+			}
+				n=n/10;
+			
+		}
+		System.out.println("smallest digit of given nuumber:"+smallest);
+	}
+}

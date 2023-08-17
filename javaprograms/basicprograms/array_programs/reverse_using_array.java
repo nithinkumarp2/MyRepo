@@ -1,0 +1,22 @@
+class reverse_using_array 
+{
+	public static void main(String[] args) 
+	{
+		int a[]={13,132,345,121};
+		for (int i=0;i<a.length ;i++ )
+		{
+			int n=a[i];
+			String str="";
+		//	char c=0;
+			int c[]={str};
+			for (int j=1;j<n.length() ;j++ )
+			{
+				char ch=n.charAt(j);
+				str=ch+str;
+		//	c=str;
+			}
+			System.out.println(c);
+		}
+		
+	}
+}

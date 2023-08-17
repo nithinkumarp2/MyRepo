@@ -1,0 +1,25 @@
+//write a program for the below requirements
+//1) create main method
+//2) create two non-static method
+//3) main method will call first non-static method
+//4) firstnon- static method will call 2nd non-static method
+//5)  
+class  method8
+{
+	 public static void main(String[] args) 
+	{ 
+		display();
+		System.out.println("Hello World!");
+	}
+
+	public  void display()
+	{
+       display1();
+	}
+	 public  void display1()
+	{
+		  
+		 System.out.println("hiii hello");
+	}
+	
+}

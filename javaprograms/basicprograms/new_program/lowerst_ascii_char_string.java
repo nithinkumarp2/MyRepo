@@ -1,0 +1,19 @@
+class lowerst_ascii_char_string 
+{
+	public static void main(String[] args) 
+	{
+		String str="nithin";
+		int n=str.length()-1;
+		char ch=str.charAt(0);
+		for (int i=0;i<=n ;i++ )
+		{
+			char ch1=str.charAt(i);
+			if (ch1<ch)
+			{
+				ch=ch1;
+			}
+			
+		}
+		System.out.println(ch);
+	}
+}

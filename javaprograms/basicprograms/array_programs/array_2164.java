@@ -1,0 +1,34 @@
+class array_2164 
+{
+	public static void main(String[] args) 
+	{
+		int []a={2,1,6,4};
+		int n=a.length-1;
+		for (int i=0;i<=n ;i++ )
+		{
+			int even=0;
+			int odd=0;
+			int k=0;
+			for (int j=0; j<=n;j++ )
+			{
+				if (i!=j)
+				{
+					if (k%2==0)
+					{
+						even+=a[j];
+					}
+					else
+					{
+						odd+=a[j];
+					}
+                   k++;
+				}
+			}
+			if (odd==even)
+			{
+				System.out.println(a[i]);
+			}
+		}
+		System.out.println("Hello World!");
+	}
+}

@@ -1,0 +1,7 @@
+class concat_two_strings 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

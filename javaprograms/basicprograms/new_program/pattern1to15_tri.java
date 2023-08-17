@@ -1,0 +1,28 @@
+class pattern1to15_tri 
+{
+	public static void main(String[] args) 
+	{
+		int n=1,n1=6,n2=11,n3=13;
+		for (int i=1;i<=5 ;i++ )
+		{int n4=1;
+		// System.out.print(i++);
+			for (int j=1;j<=5 ;j++ )
+			{    
+				
+				 if (i>=j)
+
+				 {
+					 System.out.print(n++);
+				 }
+
+
+				else
+				{
+					System.out.print("    ");
+				}
+			}
+			System.out.println();
+		}
+		
+	}
+}

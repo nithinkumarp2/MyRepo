@@ -1,0 +1,32 @@
+class two_dimenstional 
+{
+	public static void main(String[] args) 
+	{
+		String [] str={"qspiders","jspiders"};
+		String str2="";
+		
+		int n=str.length-1;
+		for (int i=0;i<=n ;i++)
+		{
+			String str1=str[i];
+			//char[] ch=str1.toCharArray();
+			int n1=str1.length()-1;
+			 
+			for (int j=1;j<=n1 ;j=j+7 )
+			{
+				char ch=str1.charAt(j);
+				for (int k=0;k<=n1 ;k=k+7 )
+				{
+					char ch1=str1.charAt(k);
+				    if (ch!=ch1)
+				    {
+                           str2=str2+ch1;
+				    }
+
+			   
+				}
+			}
+		}
+		System.out.println(str2);
+	}
+}

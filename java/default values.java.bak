@@ -1,0 +1,25 @@
+user default values
+class Datatypes
+{
+	byte b;
+	short s;
+	int i;
+	long l;
+	float f;
+	double d;
+	char c;
+	boolean  b1;
+	public static void main(String[]args)
+	{
+	 Datatype n=new Datatype();
+	 system.out.println(n.b);
+     system.out.println(n.s);
+	 system.out.println(n.i);
+	 system.out.println(n.l);
+	 system.out.println(n.f);
+	 system.out.println(n.d);
+	 system.out.println(n.c);
+	 system.out.println(n.b1);
+	}
+
+}

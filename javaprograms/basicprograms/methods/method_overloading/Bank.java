@@ -1,0 +1,45 @@
+class Bank 
+{
+	String name;
+	int age;
+	String salary;
+	String phno;
+	String addhar;
+	String panNum;
+	public void initilize(String name,int age,String salary,String phno,String addhar,String panNum)
+	{
+		this.name=name;
+	this.age=age;
+	 this.salary=salary;
+	this.phno=phno;
+	 this.addhar=addhar;
+	this.panNum=panNum;
+	}
+	public void initilize(String name,int age,String salary,String phno)
+	{
+		this.name=name;
+	this.age=age;
+	 this.salary=salary;
+	this.phno=phno;
+	  
+	}
+	public void display()
+	{
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(salary);
+		System.out.println(phno);
+		System.out.println(addhar);
+		System.out.println(panNum);
+	}
+	public static void main(String[] args) 
+	{
+		Bank b=new Bank();
+		b.initilize("nithin",23,"5555555555","1234567890");
+		b.display();
+		b.initilize("nithin",23,"5555555555","1234567890","111112222333344","PAN12334FBN");
+		b.display();
+		
+		System.out.println("Hello World!");
+	}
+}

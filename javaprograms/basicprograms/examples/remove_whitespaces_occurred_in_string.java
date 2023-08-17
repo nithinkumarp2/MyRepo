@@ -1,0 +1,18 @@
+class remove_whitespaces_occurred_in_string  
+{
+	public static void main(String[] args) 
+	{
+		String str="i am nithin kumar";
+		int n=str.length()-1;
+		String str1="";
+		for (int i=0;i<=n ;i++ )
+		{
+			char ch=str.charAt(i);
+			if (ch!=' ')
+			{
+				str1=str1+ch;
+			}
+		}
+		System.out.println(str1);
+	}
+}

@@ -1,0 +1,17 @@
+class evenacsii 
+{
+	public static void main(String[] args) 
+	{
+		int n=6;
+		int sum=0;
+		for (int i=1;i<=n-1 ;i++ )
+		{
+			sum +=i;
+			if (sum%i==0)
+			{
+				System.out.println(sum);
+			}
+		}
+		
+	}
+}

@@ -1,0 +1,25 @@
+class method  
+{
+	void m1()
+	{
+		System.out.println("0-args instances method");
+	}
+	void m2(int a)
+	{
+       System.out.println("1-args instances method");
+	} static void m3()
+	{
+		System.out.println("0-args static method");
+	}
+	static void m4()
+	{
+	System.out.println("1-args static method");
+	}
+
+	public static void main(String[] args) 
+	{
+     method m=new method();
+	 m.m1();      m.m2(10);
+	 m3();      m4();
+	}
+}

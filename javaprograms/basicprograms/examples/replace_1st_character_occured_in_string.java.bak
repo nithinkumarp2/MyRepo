@@ -1,0 +1,7 @@
+class replace_1st_character_occured_in_string 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

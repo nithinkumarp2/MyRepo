@@ -1,0 +1,20 @@
+//write a program to check whether the given number is postive or negative
+import java.util.Scanner;
+class  program9
+{
+	public static void main(String[] args) 
+	{
+		//Scanner sc=new Scanner(System.in);
+		//	System.out.println("enter number");
+		//	int n=sc.nextInt();
+		int n=-10;
+		if (n>=0)
+		{
+			System.out.println("postive");
+		}
+		else 
+		{
+		System.out.println("negative");
+		}
+	}
+}

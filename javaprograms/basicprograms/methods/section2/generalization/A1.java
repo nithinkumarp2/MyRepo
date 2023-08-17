@@ -1,0 +1,34 @@
+class A
+{
+	public void m1()
+	{
+		System.out.println("hello");
+	}
+}
+class B extends A
+{
+	public  void m(A a)
+	{
+		a.m1();
+		System.out.println("hiiii");
+		//System.out.println("keep");
+	}
+
+	
+}
+
+class  A1
+{
+//	public static void m2(A a)
+	{
+//		a.m1();
+	}
+	public static void main(String[] args) 
+	{
+		B b=new B();
+		//B b1=new B();
+		b.m(b);
+	 
+		System.out.println("Hello World!");
+	}
+}

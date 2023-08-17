@@ -1,0 +1,46 @@
+class remove_dublicates_in_array 
+{
+	public static void main(String[] args) 
+	{
+		int[]a={1,1,2,5,5,8,8,4,6,9,9,9,9,3};
+		int b[]=new int[a.length];
+		for (int i=0; i<a.length-1;i++ )
+		{
+			//int n=a[i]; 
+			int count=0; String str="";
+			for (int j=0;j<=a.length-2 ;j++ )
+			{
+				if (a[j]>a[j+1])
+				{
+					int ele=a[j];
+					a[j]=a[j+1];
+					a[j+1]=ele;
+				}
+				int m=a[j];
+			
+			}
+			
+		}
+		int j=0;
+			for (int i=0; i<a.length-1;i++ )
+		{
+		
+			if (a[i]!=a[i+1])
+				{
+					//count++;
+					//str=str+m;
+               b[j++]=a[i];
+				}
+				
+		}
+		b[j++]=a[b.length-1];
+		 	for (int k=0; k<b.length;k++ )
+		{
+				if (b[k]!=0)
+				{
+					System.out.println(b[k]);
+				} 
+				}
+		
+	}
+}

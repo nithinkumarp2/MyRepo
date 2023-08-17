@@ -1,0 +1,8 @@
+class convert_string_into_chararrray 
+{
+	public static void main(String[] args) 
+	{
+		String str="raja";
+		System.out.println("Hello World!");
+	}
+}

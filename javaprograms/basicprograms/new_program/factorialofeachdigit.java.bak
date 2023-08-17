@@ -1,0 +1,16 @@
+class factorialofeachdigit 
+{
+	public static void main(String[] args) 
+	{
+		int n=12345,fact=1;
+		while (n>0)
+		{
+			int digit=n%10;
+			fact*=digit;
+			
+			System.out.println(fact);
+			n/=10;
+		}
+		System.out.println("Hello World!");
+	}
+}

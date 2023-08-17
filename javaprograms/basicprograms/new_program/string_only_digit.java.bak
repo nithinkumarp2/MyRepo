@@ -1,0 +1,21 @@
+class string_only_digit 
+{
+	public static void main(String[] args) 
+	{
+		String str="waste 1234 @#%//..fellows";
+		int n=str.length()-1;
+		for (int i=0;i<=n ;i++ )
+		{
+			char c=str.charAt(i);
+//			if((!(c>='a'&&c<='z'))) 
+//			{ 
+  //              System.out.print(c);
+	//		}
+			if ((c>='0'&&c<='n') )
+			{
+				System.out.print(c);
+			}
+		}
+		System.out.println("Hello World!");
+	}
+}
