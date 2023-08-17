@@ -1,0 +1,15 @@
+127.0.0.1 - - [15/Mar/2023:07:58:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:34 +0530] "GET /hibernate_servlet_curd/ HTTP/1.1" 200 329
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:34 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:36 +0530] "GET /hibernate_servlet_curd/Display.jsp HTTP/1.1" 500 2316
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:45 +0530] "GET /hibernate_servlet_curd/save.jsp HTTP/1.1" 200 333
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:50 +0530] "GET /hibernate_servlet_curd/update.jsp HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:54 +0530] "GET /hibernate_servlet_curd/Delete.jsp HTTP/1.1" 200 244
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:07:58:57 +0530] "GET /hibernate_servlet_curd/Display.jsp HTTP/1.1" 500 2316
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:07:51 +0530] "GET /hibernate_servlet_curd/Display.jsp HTTP/1.1" 500 2316
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:07:57 +0530] "GET /hibernate_servlet_curd/save.jsp HTTP/1.1" 200 333
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:08:02 +0530] "GET /hibernate_servlet_curd/update.jsp HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:08:07 +0530] "GET /hibernate_servlet_curd/Delete.jsp HTTP/1.1" 200 244
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:08:12 +0530] "GET /hibernate_servlet_curd/Display.jsp HTTP/1.1" 500 2316
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:10:50 +0530] "GET /hibernate_servlet_curd/update.jsp HTTP/1.1" 200 381
+0:0:0:0:0:0:0:1 - - [15/Mar/2023:08:11:12 +0530] "GET /hibernate_servlet_curd/update?id=2&name=kick22&age= HTTP/1.1" 500 1402

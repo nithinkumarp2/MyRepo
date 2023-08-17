@@ -1,0 +1,12 @@
+127.0.0.1 - - [12/Mar/2023:23:30:41 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:30:47 +0530] "GET /hibernate_servlet_curd/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:30:48 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:30:57 +0530] "GET /hibernate_servlet_curd/save.jsp HTTP/1.1" 200 333
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:31:14 +0530] "GET /hibernate_servlet_curd/save?id=20&name=n&age=22 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:35:29 +0530] "GET /hibernate_servlet_curd/save.jsp HTTP/1.1" 200 333
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:35:43 +0530] "GET /hibernate_servlet_curd/save?id=19&name=k&age=22 HTTP/1.1" 200 52
+127.0.0.1 - - [12/Mar/2023:23:51:48 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:51:49 +0530] "GET /hibernate_servlet_curd/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:52:08 +0530] "GET /hibernate_servlet_curd/find.jsp HTTP/1.1" 200 270
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:56:41 +0530] "GET /hibernate_servlet_curd/find.jsp HTTP/1.1" 200 433
+0:0:0:0:0:0:0:1 - - [12/Mar/2023:23:57:04 +0530] "GET /hibernate_servlet_curd/find?id=20 HTTP/1.1" 200 52

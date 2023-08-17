@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.jsp.demo.user"><rhs name\="com.jsp.demo.user"/></lhs><lhs name\="com.jsp.dto.EmployeeEntity"><rhs name\="com.jsp.dto.EmployeeEntity"/></lhs><lhs name\="com.jsp.demo.persondetails"><rhs name\="com.jsp.demo.persondetails"/></lhs><lhs name\="com.jsp.EmployeeDao.Dao"><rhs name\="com.jsp.EmployeeDao.Dao"/></lhs><lhs name\="com.jsp.service.personservice"><rhs name\="com.jsp.service.personservice"/></lhs><lhs name\="com.jsp.controller.update"><rhs name\="com.jsp.controller.update"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.jsp.Dao.EmplyeeDao"><rhs name\="com.jsp.Dao.EmplyeeDao"/></lhs><lhs name\="com.jsp.Dto.EmployeeEntity"><rhs name\="com.jsp.Dto.EmployeeEntity"/></lhs><lhs name\="com.jsp.service.PersonService"><rhs name\="com.jsp.service.PersonService"/></lhs><lhs name\="com.jsp.service.EmployeeService"><rhs name\="com.jsp.service.EmployeeService"/></lhs><lhs name\="com.jsp.dao.EmployeeDao"><rhs name\="com.jsp.dao.EmployeeDao"/></lhs></history>
+content_assist_number_of_computers=16
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
