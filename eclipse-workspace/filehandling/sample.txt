@@ -1,0 +1,5 @@
+different types of reading files
+1) file input stream
+2) scanner
+3) file reader
+4) buffered reader

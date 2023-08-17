@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;mysqldatabase&apos;" deleteContents="false" description="Delete resource &apos;mysqldatabase&apos;" element1="/mysqldatabase" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1674794682430"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.nithin.name&apos; to &apos;namen&apos;&#x0D;&#x0A;- Original project: &apos;first_web&apos;&#x0D;&#x0A;- Original element: &apos;com.nithin.name&apos;&#x0D;&#x0A;- Renamed element: &apos;com.nithin.namen&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;name&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.nithin{name.java[name" matchStrategy="1" name="namen" qualified="false" references="true" similarDeclarations="false" stamp="1676631133793" textual="false" version="1.0"/>
+</session>
