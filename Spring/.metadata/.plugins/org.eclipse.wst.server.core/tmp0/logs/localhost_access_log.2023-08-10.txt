@@ -1,0 +1,14 @@
+127.0.0.1 - - [10/Aug/2023:20:16:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:16:23 +0530] "GET /spring_curd_dynamic/ HTTP/1.1" 200 503
+127.0.0.1 - - [10/Aug/2023:20:23:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:23:56 +0530] "GET /spring_mvc_curd/ HTTP/1.1" 200 52
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:24:12 +0530] "GET /spring_curd_dynamic/getAll.jsp HTTP/1.1" 500 2348
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:24:20 +0530] "GET /spring_curd_dynamic/save.jsp HTTP/1.1" 200 340
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:24:26 +0530] "GET /spring_curd_dynamic/update.jsp HTTP/1.1" 200 416
+127.0.0.1 - - [10/Aug/2023:20:26:30 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [10/Aug/2023:20:53:01 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:53:04 +0530] "GET /spring_curd_dynamic/ HTTP/1.1" 200 503
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:53:37 +0530] "GET /spring_curd_dynamic/update?id=&name=&age= HTTP/1.1" 500 1402
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:53:59 +0530] "GET /spring_curd_dynamic/ HTTP/1.1" 200 503
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:54:05 +0530] "GET /spring_curd_dynamic/getAll.jsp HTTP/1.1" 500 2338
+0:0:0:0:0:0:0:1 - - [10/Aug/2023:20:54:27 +0530] "GET /spring_mvc_curd/ HTTP/1.1" 200 52
